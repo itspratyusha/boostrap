@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+     font-family: "Roboto", sans-serif;
+}
+.logo{
+    height: 30px;
+}
+.ww{
+    width: 580px;
+    border: 0;
+    padding: 10px;
+}
+.colour{
+    background: #FFDD00;
+    padding: 10px;
+    width: 150px;
+}
+.a{
+    width: 250px; height: auto; position: absolute; left: 5%; top:100px;
+}
+.b{
+    width: 290px; height: auto; position: absolute; right: 10%; top: 30px;
+}
+.c{
+    width: 360px; height: auto; position: absolute; right: 20%; bottom: -30px;
+}
+.d{
+    width: 270px; height: auto; position: absolute; right: 60%; bottom: 50px;
+}
+.banner {
+  height: 90vh;        /* control height here */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* prevents stretching */
+}
+
+
+h3{
+    font-weight: 300;
+}
+h4{
+    font-size: small;
+}
+.box{
+    height: 180px;
+    overflow: hidden;
+   
+}
+.box img{
+    transition: 0.9s;
+}
+.box:hover img{
+    transform: scale(1.2);
+    object-fit: cover;
+}
+
+.highlight p:hover{     /* highlight is section kina ki specific section  ko p tag ma matra hover garda greenaaune */
+    color:green;
+}
+.imm{
+   height: 300px;          /* control height here */
+    background-color: black;
+    position: relative;
+}
+.imm img{
+      width: 100%;            /* ALWAYS needed */
+    height: 100%;           /* ALWAYS needed for object-fit */
+    object-fit: cover;
+    opacity: 0.6;
+   
+}
+.ww1{
+    width: 140px;
+    padding: 0;
+}
+.app{
+    width: 100px;
+}
+.app img{
+    width: 420px;
+    padding: 0;
+}
+.bgg{
+    background-color: #F7F7F7;
+}
